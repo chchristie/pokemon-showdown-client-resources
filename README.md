@@ -8,4 +8,3 @@ Name the item icon image file with the same name as the item ID.
 Make sure to include `isNonstandard: "DigiPen"` for the Item entry in the server data/mods/gen9digipen/items.ts file if you want to use this resource location for the Item icon.
 
 Trainer sprites are 80x80 px.
-For a publically available trainer, make sure to add an `id: filename` pair in the client play.pokemonshowdown.com/src/battle-dex-data.ts and to update the end index of the loop that populates the sprite popup panel in the client play.pokemonshowdown.com/src/panelpopups.tsx 
